@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Minecraft';
-  src: url('/gofioweb/media/Minecraft.ttf');
+  src: url('/media/Minecraft.ttf');
 }
 @font-face {
   font-family: 'Minecrafter';
-  src: url('/gofioweb/media/Minecrafter.Reg.ttf');
+  src: url('/media/Minecrafter.Reg.ttf');
 }
 body {
-  background-image: url('/gofioweb/media/bg.png');
+  background-image: url('/media/bg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
 div {
-  background-image: url('/gofioweb/media/bg2.png');
+  background-image: url('/media/bg2.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
