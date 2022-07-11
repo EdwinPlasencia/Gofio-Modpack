@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/gofioweb/media/Minecraft.ttf');
+}
+@font-face {
+  font-family: 'Minecrafter';
+  src: url('/gofioweb/media/Minecrafter.Reg.ttf');
+}
+body {
+  background-image: url('/gofioweb/media/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div {
+  background-image: url('/gofioweb/media/bg2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  p
+}
+
+p {
+  font-family: 'Minecraft';
+  text-align: left;
+  color: white;
+}
+
+h1 {
+  font-family: 'Minecrafter';
+  text-align: center;
+  text-shadow: 10px 10px #000000;
+  color: #f9d70b;
+  font-size: 100px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #eeaf4b;
+}
+
+h2 {
+font-family: 'Minecraft';
+text-align: center;
+color: white;
+}
+
+h3 {
+  font-family: 'Minecraft';
+  text-align: center;
+  color: white;
+  margin-top: -40px;
+  margin-bottom: 60px;
+}
