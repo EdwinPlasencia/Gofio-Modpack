@@ -32,8 +32,7 @@ p {
 }
 
 h1 {
-  /*font-family: 'Minecrafter';*/
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Minecrafter';
   text-align: center;
   text-shadow: 10px 10px #000000;
   color: #f9d70b;
