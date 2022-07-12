@@ -25,13 +25,15 @@ div {
 }
 
 p {
-  font-family: 'Minecraft';
+  /*font-family: 'Minecraft';*/
+  font-family: 'Noto Sans', sans-serif;
   text-align: left;
   color: white;
 }
 
 h1 {
-  font-family: 'Minecrafter';
+  /*font-family: 'Minecrafter';*/
+  font-family: 'Noto Sans', sans-serif;
   text-align: center;
   text-shadow: 10px 10px #000000;
   color: #f9d70b;
@@ -41,13 +43,15 @@ h1 {
 }
 
 h2 {
-font-family: 'Minecraft';
+/*font-family: 'Minecraft';*/
+  font-family: 'Noto Sans', sans-serif;
 text-align: center;
 color: white;
 }
 
 h3 {
-  font-family: 'Minecraft';
+  /*font-family: 'Minecraft';*/
+  font-family: 'Noto Sans', sans-serif;
   text-align: center;
   color: white;
   margin-top: -40px;
