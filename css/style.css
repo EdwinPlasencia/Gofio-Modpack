@@ -51,3 +51,9 @@ h3 {
   text-align: left;
   color: white;
 }
+
+#title {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
