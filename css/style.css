@@ -2,10 +2,16 @@
   font-family: 'Minecraftia';
   src: url('../media/Minecraft.ttf');
 }
+
 @font-face {
   font-family: 'Minecrafter';
   src: url('../media/Minecrafter.Reg.ttf');
 }
+
+h1 span { 
+    background-color: black; 
+}
+
 body {
   background-image: url('../media/bg.png');
   background-repeat: no-repeat;
