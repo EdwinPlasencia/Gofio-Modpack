@@ -59,6 +59,8 @@ h3 {
 }
 
 .desc {
-  text-align: center;
+  text-align: left;
   color: white;
+  margin: auto;
+  width: 50%;
 }
