@@ -15,12 +15,6 @@ body {
   background-size: cover;
 }
 
-#over img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 div {
   background-image: url('../media/bg2.png');
   background-repeat: no-repeat;
