@@ -8,7 +8,7 @@
   src: url('../media/Minecrafter.Reg.ttf');
 }
 
-#center img {
+#center {
   margin: auto;
   width: 70%;
   display: block;
