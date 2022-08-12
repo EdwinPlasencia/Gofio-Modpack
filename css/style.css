@@ -8,6 +8,10 @@
   src: url('../media/Minecrafter.Reg.ttf');
 }
 
+img {
+  display: block;
+}
+
 body {
   background-image: url('../media/bg.png');
   background-repeat: no-repeat;
