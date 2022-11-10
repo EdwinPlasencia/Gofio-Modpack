@@ -56,18 +56,15 @@ h1 {
 h2 {
   font-family: 'Minecrafter';
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000000;
   color: white;
 }
 
 h3 {
-  font-family: 'Minecrafter';
+  font-family: 'Minecraftia';
   text-align: left;
-  font-size: 35px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #000000;
   color: white;
 }
 
