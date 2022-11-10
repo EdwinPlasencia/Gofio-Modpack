@@ -57,7 +57,7 @@ h2 {
   font-family: 'Minecraftia';
   text-align: center;
   font-size: 40px;
-  -webkit-text-stroke-width: 1x;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000000;
   color: white;
 }
