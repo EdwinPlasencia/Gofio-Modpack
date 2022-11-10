@@ -16,16 +16,16 @@
 
 body {
   background-image: url('../media/bg.png');
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 div {
   background-image: url('../media/bgspruce.jpg');
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover;*/
   padding: 20px;
   margin: auto;
   width: 70%;
