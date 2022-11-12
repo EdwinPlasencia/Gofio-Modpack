@@ -26,7 +26,7 @@ body, html {
   animation-name: fadein;
   animation-duration: 2s;
   animation-timing-function: ease;
-  animation-delay: 0s;
+  animation-delay: 3s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -86,7 +86,7 @@ body, html {
   animation-name: fadein;
   animation-duration: 0.5s;
   animation-timing-function: ease;
-  animation-delay: 1s;
+  animation-delay: 4s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -99,7 +99,7 @@ body, html {
   animation-name: fadein;
   animation-duration: 0.5s;
   animation-timing-function: ease;
-  animation-delay: 2s;
+  animation-delay: 5s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -113,7 +113,7 @@ body, html {
   animation-name: fadein;
   animation-duration: 0.5s;
   animation-timing-function: ease;
-  animation-delay: 3s;
+  animation-delay: 6s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -127,7 +127,7 @@ body, html {
   animation-name: fadein;
   animation-duration: 3s;
   animation-timing-function: ease;
-  animation-delay: 4s;
+  animation-delay: 7s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -142,7 +142,7 @@ body, html {
   animation-name: fadein;
   animation-duration: 0.75s;
   animation-timing-function: ease;
-  animation-delay: 1s;
+  animation-delay: 4s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -157,7 +157,7 @@ body, html {
   animation-name: fadein;
   animation-duration: 0.75s;
   animation-timing-function: ease;
-  animation-delay: 2s;
+  animation-delay: 5s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -172,7 +172,7 @@ body, html {
   animation-name: fadein;
   animation-duration: 0.75s;
   animation-timing-function: ease;
-  animation-delay: 3s;
+  animation-delay: 6s;
   animation-direction: normal;
   animation-fill-mode: both;
 
