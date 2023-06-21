@@ -3,10 +3,6 @@
     <head>
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico" />
-        <link rel="preload" as="audio" href="media/magia.ogg"  type="audio/mp3"/>
-        <link rel="preload" as="audio" href="media/aventuras.ogg"  type="audio/mp3"/>
-        <link rel="preload" as="audio" href="media/mecanica.ogg"  type="audio/mp3"/>
-        <link rel="preload" as="audio" href="media/gofio.ogg"  type="audio/mp3"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gofio</title>
@@ -16,12 +12,8 @@
         <div class="container">
             <div class="toppane">
                 <img class="title" src="media/title.png">
-
-                <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 7500)">
-                    <source src="media/gofio.ogg" type="audio/mp3" />
-                </audio>
-
             </div>
+            
             <div class="middlepane">
                 <video width="1280" height="720" autoplay loop muted>
                     <source src="media/background.mp4" type="video/mp4" />
