@@ -14,6 +14,13 @@
   to { opacity: 1; }
 }
 
+::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 body, html {
   width: 100%;
   height: 100%;
@@ -26,58 +33,25 @@ body, html {
   width: 100%;
   height: 100%;
   display: flex;
-  overflow: hidden;
 }
 
 .toppane {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 3%;
   left: 0;
   right: 0;
   z-index: 1;
 
-  width: 33.33%;
+  width: 40.00%;
 
   background-color: transparent;
 }
 
-.leftpane {
-  animation-name: fadein;
-  animation-duration: 2s;
-  animation-timing-function: ease;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-fill-mode: both;
-
-  float: left;
-
-  width: 33.33%;
-
-  background: rgb(81,0,135);
-  background: linear-gradient(180deg, rgba(81,0,135,1) 0%, rgba(0,0,0,1) 100%);
-
-  border: 2px black;
-  border-style: hidden solid hidden hidden;
-}
-
-.middlepane {
-  animation-name: fadein;
-  animation-duration: 2s;
-  animation-timing-function: ease;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-fill-mode: both;
-
-  float: center;
-
-  width: 100%;
-}
-
 .title {
   animation-name: fadein;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: ease;
   animation-delay: 3s;
   animation-direction: normal;
@@ -90,10 +64,52 @@ body, html {
   height: 100%;
 }
 
+.middlepane {
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+  float: left;
+
+  width: 100%;
+}
+
+.middlepane video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: -2.5%;
+}
+
+.maintext {
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 4s;
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  left: 0;
+  right: 0;
+  top: 70%;
+
+  width: auto;
+  height: auto;
+}
+
 .history {
   margin: auto;
   padding-top: 10%;
+  padding-bottom: 10%;
   width: 100%;
+  background-color: #181818;
 }
 
 h1 {
@@ -137,7 +153,63 @@ p {
   display: flex;
 }
 
+.fullserver {
+  width: 30%;
+  margin: auto;
+  display: flex;
+}
+
 .half {
   float: left;
   width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.host {
+  transition: .1s;
+  transform: scale(1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-bottom: 30px;
+}
+
+.host:hover, .host:focus {
+  transition: .2s;
+  transform: scale(1.15);
+}
+
+.flag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  margin-top: -20px;
+}
+
+.bottom {
+  width: 100%;
+  height: 15%;
+  background: black;
+  padding-top: 1%;
+}
+
+.about {
+  transition: .1s;
+  transform: scale(1);
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 10%;
+}
+
+.about:hover, .about:focus {
+  transition: .2s;
+  transform: scale(1.15);
 }
