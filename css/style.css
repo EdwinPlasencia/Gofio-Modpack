@@ -128,13 +128,13 @@ p {
 }
 
 .full {
-  width: 75%;
+  width: 80%;
   margin: auto;
   display: flex;
 }
 
 .fullserver {
-  width: 30%;
+  width: 40%;
   margin: auto;
   display: flex;
 }
