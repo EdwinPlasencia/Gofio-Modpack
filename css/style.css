@@ -8,6 +8,10 @@
   src: url('../media/Minecrafter.Reg.ttf');
 }
 
+@font-face {
+  font-family: 'Blackthorns';
+  src: url('../media/Blackthorns.ttf');
+}
 
 @keyframes fadein {
   from { opacity: 0; }
@@ -36,9 +40,9 @@ body, html {
 
 .title {
   animation-name: fadein;
-  animation-duration: 1s;
+  animation-duration: 0.7s;
   animation-timing-function: ease;
-  animation-delay: 3s;
+  animation-delay: 1.3s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -51,9 +55,9 @@ body, html {
 
 .backgroundvideo {
   animation-name: fadein;
-  animation-duration: 1s;
+  animation-duration: 0.7s;
   animation-timing-function: ease;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-direction: normal;
   animation-fill-mode: both;
 
@@ -72,16 +76,17 @@ body, html {
 
 .main {
   animation-name: fadein;
-  animation-duration: 2s;
+  animation-duration: 0.7s;
   animation-timing-function: ease;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-direction: normal;
   animation-fill-mode: both;
 
   position: absolute;
+  text-align: center;
   left: 0;
   right: 0;
-  top: 75%;
+  top: 70%;
 }
 
 .changelog {
@@ -189,7 +194,29 @@ p {
   padding: 70px 0;
 }
 
-.about:hover, .about:focus {
+.about:hover {
   transition: .2s;
   transform: scale(1.15);
+}
+
+.download {
+  font-family: 'Blackthorns';
+  color: #ffffff;
+  background-color: #696969;
+  font-size: 30px;
+  border: 1px solid #ffffff;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  position: absolute;
+  top:70%;
+  left: 43.5%;
+  cursor: pointer;
+}
+
+.download:hover {
+  color: #ffffff;
+  background-color: #348f00;
 }
