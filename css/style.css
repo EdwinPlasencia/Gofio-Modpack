@@ -89,6 +89,21 @@ body, html {
   top: 70%;
 }
 
+.mainlauncher {
+  animation-name: fadein;
+  animation-duration: 0.7s;
+  animation-timing-function: ease;
+  animation-delay: 2s;
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 75%;
+}
+
 .changelog {
   margin: auto;
   padding-top: 10%;
